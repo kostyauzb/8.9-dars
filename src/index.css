@@ -1,24 +1,10 @@
-.container {
-  width: 1200px;
-  height: auto;
-  margin: auto;
-}
-
-.btn {
-  width: 5rem;
-  height: 1.5rem;
-  color: white;
-  background-color: red;
-  margin-left: 1rem;
-  border: none;
-  margin-right: 1rem;
-  cursor: pointer;
-  margin-top: 3px;
-}
-.tit {
-  padding: 5px;
-  list-style: none;
-}
-.btn2 {
-  cursor: pointer;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .container {
+    width: 1200px;
+    margin: auto;
+    
+  }
 }
